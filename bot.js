@@ -1,6 +1,7 @@
 const BOT_TOKEN = 8140644618:AAFv23xyA5qajo9kWKyvJqW7ALs2NuSK7U4;   // de @BotFather
-const CHAT_ID   =  -1002824825805;     // ej. @ofertas_mx
-const SITE_ID   = process.env.SITE_ID ?? "MLM";
+CHAT_ID=-1002824825805
+SITE_ID=MLM
+QUERIES=nintendo switch oled|6000;ssd 1tb|1000
 
 // Ajusta consultas separando por ; (más simple para env var)
 const RAW_QUERIES = process.env.QUERIES ?? "nintendo switch oled|6000;ssd 1tb|1000";
